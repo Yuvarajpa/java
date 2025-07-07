@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mark sheet</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    h1 {
+      background-color: aqua;
+    }
+
+    h4 {
+      font-size: medium;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .one {
+      background-color: whitesmoke;
+    }
+
+    .container {
+      width: 90%
+    }
+
+    .two {
+      margin-left: 6%;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+    <div style="margin-bottom: 10px;" class="one">
+      <h1 style="text-align: center;">Mark Sheet</h1>
+      <br>
+
+      <div class="two">
+
+        <h4 id="studentName"></h4>
+        <h4 id="regNo"></h4>
+        <h4 id="collegeName"></h4>
+      </div>
+      <br>
+
+
+      <div class="container">
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr>
+              <th style="text-align: center;">Subject Name</th>
+              <th>Marks Allocated</th>
+              <th>Marks Awarded</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>S1</td>
+              <td>100</td>
+              <td>70</td>
+              <td><span id="mark0"></span></td>
+            </tr>
+            <tr>
+              <td>S2</td>
+              <td>100</td>
+              <td>75</td>
+              <td><span id="mark1"></span></td>
+            </tr>
+            <tr>
+              <td>S3</td>
+              <td>100</td>
+              <td>80</td>
+              <td><span id="mark2"></span></td>
+            </tr>
+            <tr>
+              <td>S4</td>
+              <td>100</td>
+              <td>100</td>
+              <td><span id="mark3"></span></td>
+            </tr>
+            <tr>
+              <td>S5</td>
+              <td>100</td>
+              <td>30</td>
+              <td><span id="mark4"></span></td>
+            </tr>
+            <tr>
+              <td>S6</td>
+              <td>100</td>
+              <td>90</td>
+              <td><span id="mark5"></span></td>
+            </tr>
+            <tr>
+              <td>
+
+              </td>
+              <td>
+                <span id="totalmarks"></span>
+              </td>
+
+              <td><span id="percentage"></span></td>
+              <td><span id="pass"></span></td>
+
+            </tr>
+
+          </tbody>
+        </table>
+        <br>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    window.onload = function () {
+      let name = "Yuvaraj P";
+      let Reg = 7372214225;
+      let college = "K S RANGASAMY COLLEGE OF TECHNOLOGY";
+      let totalmarks = 600;
+      let sum = 0;
+      let percentage;
+
+      document.getElementById("studentName").textContent = "Name            : " + name;
+      document.getElementById("regNo").textContent = "Register number : " + Reg;
+      document.getElementById("collegeName").textContent = "College Name : " + college;
+      let c = 0;
+      let arr = [70, 75, 80, 100, 30, 90];
+      for (let i = 0; i < arr.length; i++) {
+
+        if (arr[i] >= 35) {
+          document.getElementById(`mark${i}`).textContent = "Pass";
+          sum += arr[i];
+          c++;
+        } else {
+          document.getElementById(`mark${i}`).textContent = "Fail";
+          sum += arr[i];
+        }
+      }
+      console.log(c);
+      if (arr.length === c) {
+        document.getElementById("pass").textContent = "Pass";
+      }
+      else {
+        document.getElementById("pass").textContent = "Fail";
+
+      }
+
+      percentage = (sum / totalmarks) * 100;
+
+      console.log(Math.round(percentage));
+      console.log(sum);
+      document.getElementById("percentage").textContent = Math.round(percentage) + "% ";
+      document.getElementById("totalmarks").textContent = Math.round(totalmarks);
+
+    };
+
+
+
+
+
+  </script>
+</body>
+
+</html>

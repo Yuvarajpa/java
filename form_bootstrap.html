@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .form{
+            border :2px solid black;
+            text-align: left;
+            width: 60%;
+            margin: 0 auto;
+            padding :10px;
+            background-color: white;
+            border-radius: 15px;
+
+        }
+        .form input{
+            margin-bottom: 10px;
+
+        }
+        body{
+            background-color: antiquewhite  ;
+        }
+        .one {
+           background-color: white;
+           text-align: center;
+           border :2px solid black;
+           width: 60%;
+           margin:20%;
+           
+        }
+        .one >form >label{
+            padding: 20px;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Employee Registration form</h1>
+    <form class="form">
+        Name: <input type="text" name="name" placeholder="Enter your name" required><br>
+        Email:<input type="email" name="email" placeholder="Enter your email" required><br>
+        password:<input type="password" name="password" placeholder="Enter your password" required><br>
+        Resume:<input type="file" name ="resume" accept=".pdf,.doc,.docx" multiple required><br>
+        <textarea name ="about Yourself" rows="4" cols="50" placeholder="Tell us about yourself" required></textarea><br>
+        Languages Known:<br>
+        <input type="checkbox" name="languages" value="Java"> Java<br>
+        <input type="checkbox" name="languages" value="Python"> Python<br>
+        <input type="checkbox" name="languages" value="C++"> C++<br>  
+
+        Choose Your Domain :<select name="domain" required>
+            <option value="IT">Web development</option>
+            <option value="Finance">AI</option>
+            <option value="Marketing">Cloud computing</option>
+            <option value="HR">HR</option>
+            <option selected value="default">Select your domain</option>
+            </select><br>
+
+
+            <input type="text" list="mydate" placeholder="select the test">
+            <datalist id="mydate">
+                <option value="2023-01-01">test1</option>
+                <option value="2023-02-01">test2</option>
+                <option value="2023-03-01">test3</option>
+                <option value="2023-04-01">test4</option>
+                <option value="2023-05-01">test5</option>
+                <option value="2023-06-01">test6</option>
+                <option value="2023-07-01">test7</option>
+                <option value="2023-08-01">test8</option>
+                <option value="2023-09-01">test9</option>
+                <option value="2023-10-01">test10</option>
+                
+            </datalist><br>
+
+<input type="radio" name ="gender" value="male" required> Male
+<input type="radio" name ="gender" value="female" required> Female
+<br>
+<input type="color" name="favoriteColor"> <br>
+<input type="range" name="experience" min="0" max="10" step="1" value="5"><br>
+<input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+
+        
+    </form>
+
+
+<div class="one">
+    <form action="" >
+        <label for="" class="form-label">
+            Email ID
+            <input type ="email" class="form-control">
+        </label><br>
+        <label for="" class="form-label">
+            Number
+            <input type="number" class="form-control">
+        </label><br>
+        <label for="" class="form-label">
+            gender
+            <input type="radio" class="form-check-input" name ="gender" value="male">Male
+            <input type="radio" class="form-check-input" name ="gender" value="female">Female
+        </label> <br>
+
+        <input type="reset" class="reset" ><br>
+        <input type="submit" class="btn btn-success">
+
+     </form>
+</div>
+
+toaster
+floating style
+
+
+
+    <!-- <svg>
+        <line x1="0" y1="0" x2="100" y2="100" style="stroke:rgb(255,0,0);stroke-width:2" />
+<line x1="0" y1="100" y2="100" x2="100" style="stroke:rgb(0,255,0);stroke-width:2" />
+
+<line x1="0" y1="100" x2="100" y2="0" style="stroke:rgb(0,0,255);stroke-width:2" />
+<line x1="50" y1="150" x2="100" y2="0" style="stroke:rgb(255,0,0);stroke-width:2" />
+<line x1="0" y1="0" x2="50" y2="150" style="stroke:rgb(0,255,0);stroke-width:2" />
+    </svg>
+
+    <audio src="" controls>
+        Your browser does not support the audio element.
+    </audio>
+    <video src="https://static.videezy.com/system/resources/previews/000/019/650/original/Uhr10.mp4"  controls height="240" width="320" autoplay loop>
+        Your browser does not support the video element.
+    </video> -->
+</body>
+</html>
