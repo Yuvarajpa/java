@@ -1,0 +1,120 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "bankProject",
+            "request": "launch",
+            "mainClass": "bankProject",
+            "projectName": "java_a4864eb3"
+        },
+        {
+            "type": "java",
+            "name": "FullAdvancedBankingApp",
+            "request": "launch",
+            "mainClass": "FullAdvancedBankingApp",
+            "projectName": "java_a4864eb3"
+        },
+        {
+            "type": "java",
+            "name": "MultiLoanBankingApp",
+            "request": "launch",
+            "mainClass": "MultiLoanBankingApp",
+            "projectName": "java_a4864eb3"
+        },
+        {
+            "type": "java",
+            "name": "s",
+            "request": "launch",
+            "mainClass": "s",
+            "projectName": "java_a4864eb3"
+        },
+        {
+            "type": "java",
+            "name": "HelloFX",
+            "request": "launch",
+            "mainClass": "HelloFX",
+            "projectName": "java_a4864eb3"
+        },
+        {
+            "type": "java",
+            "name": "AdvancedBankingApp",
+            "request": "launch",
+            "mainClass": "AdvancedBankingApp",
+            "projectName": "java_a4864eb3"
+        },
+        {
+            "type": "java",
+            "name": "BankingApp",
+            "request": "launch",
+            "mainClass": "BankingApp",
+            "projectName": "java_a4864eb3"
+        },
+        {
+            "type": "java",
+            "name": "GreetingAppGrid",
+            "request": "launch",
+            "mainClass": "GreetingAppGrid",
+            "projectName": "java_a4864eb3"
+        },
+        {
+            "type": "java",
+            "name": "GreetingAppFlow",
+            "request": "launch",
+            "mainClass": "GreetingAppFlow",
+            "projectName": "java_a4864eb3"
+        },
+        {
+            "type": "java",
+            "name": "swing",
+            "request": "launch",
+            "mainClass": "swing",
+            "projectName": "java_a4864eb3"
+        },
+        {
+            "type": "java",
+            "name": "Mywindow",
+            "request": "launch",
+            "mainClass": "Mywindow",
+            "projectName": "java_a4864eb3"
+        },
+        {
+            "type": "java",
+            "name": "MyWindow",
+            "request": "launch",
+            "mainClass": "MyWindow",
+            "projectName": "java_a4864eb3"
+        },
+        {
+            "type": "java",
+            "name": "zero",
+            "request": "launch",
+            "mainClass": "zero",
+            "projectName": "java_a4864eb3"
+        },
+        {
+            "type": "java",
+            "name": "oddeve",
+            "request": "launch",
+            "mainClass": "oddeve",
+            "projectName": "java_a4864eb3"
+        },
+        {
+            "type": "java",
+            "name": "selectionsort",
+            "request": "launch",
+            "mainClass": "selectionsort",
+            "projectName": "java_a4864eb3"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>KSR - Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #eaf6ff;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: linear-gradient(90deg, #0077b6, #0096c7);
+      padding: 1rem 2rem;
+      color: white;
+    }
+
+    .navbar .title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .navbar .nav-links a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .navbar .nav-links a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 6px 12px;
+      background-color: #6c757d;
+      color: white;
+      border-radius: 20px;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .alert {
+      background-color: #fff3cd;
+      padding: 15px 20px;
+      border-radius: 8px;
+      color: #856404;
+      margin-bottom: 20px;
+      border: 1px solid #ffeeba;
+    }
+
+    .action-buttons {
+      display: flex;
+      gap: 10px;
+    }
+
+    .action-buttons a {
+      padding: 10px 20px;
+      font-size: 15px;
+      font-weight: 600;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      color: white;
+    }
+
+    .btn-login {
+      background-color: #006644;
+    }
+
+    .btn-register {
+      background-color: #0056d2;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 1rem;
+      margin-top: 60px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .footer a {
+      color: #0056d2;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="title">KSR</div>
+    <div class="nav-links">
+      <a href="index.html">🏠 Home</a>
+      <a href="login.html">🔐 Login</a>
+      <a href="register.html">👤 Register</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2>Technical Assessment - 8 KSRCT</h2>
+    <span class="badge">Inactive</span>
+
+    <div class="alert">
+      You are required to login to view the information
+    </div>
+
+
+  </div>
+
+  <div class="footer">
+  </div>
+</body>
+</html>

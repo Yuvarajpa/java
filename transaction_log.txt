@@ -1,0 +1,42 @@
+[2025-07-17 16:00:39] Personal Loan Approved: $1000.00
+[2025-07-17 16:00:41] EMI Paid for Personal: $83.33
+[2025-07-17 16:00:41] EMI Paid for Personal: $83.33
+[2025-07-17 16:00:41] EMI Paid for Personal: $83.33
+[2025-07-17 16:00:42] EMI Paid for Personal: $83.33
+[2025-07-17 16:00:42] EMI Paid for Personal: $83.33
+[2025-07-17 16:00:42] EMI Paid for Personal: $83.33
+[2025-07-17 16:00:42] EMI Paid for Personal: $83.33
+[2025-07-17 16:00:42] EMI Paid for Personal: $83.33
+[2025-07-17 16:00:42] EMI Paid for Personal: $83.33
+[2025-07-17 16:00:43] EMI Paid for Personal: $83.33
+[2025-07-17 16:00:43] EMI Paid for Personal: $83.33
+[2025-07-17 16:00:48] Home Loan Approved: $122.00
+[2025-07-17 16:00:54] Car Loan Approved: $12.00
+[2025-07-17 16:00:55] EMI Paid for Car: $1.00
+[2025-07-17 16:00:55] EMI Paid for Car: $1.00
+[2025-07-17 16:00:56] EMI Paid for Car: $1.00
+[2025-07-17 16:00:56] EMI Paid for Car: $1.00
+[2025-07-17 16:00:56] EMI Paid for Car: $1.00
+[2025-07-17 16:00:56] EMI Paid for Car: $1.00
+[2025-07-17 16:00:56] EMI Paid for Car: $1.00
+[2025-07-17 16:00:56] EMI Paid for Car: $1.00
+[2025-07-17 16:00:57] EMI Paid for Car: $1.00
+[2025-07-17 16:00:57] EMI Paid for Car: $1.00
+[2025-07-17 16:00:57] EMI Paid for Car: $1.00
+[2025-07-17 16:00:57] EMI Paid for Car: $1.00
+[2025-07-17 16:00:57] Car Loan Fully Paid
+[2025-07-19 10:09:26] Deposited: $123.00
+[2025-07-19 10:09:40] Car Loan Approved: $10.00
+[2025-07-19 10:09:42] EMI Paid for Car: $0.83
+[2025-07-19 10:09:42] EMI Paid for Car: $0.83
+[2025-07-19 10:09:42] EMI Paid for Car: $0.83
+[2025-07-19 10:09:42] EMI Paid for Car: $0.83
+[2025-07-19 10:09:42] EMI Paid for Car: $0.83
+[2025-07-19 10:09:43] EMI Paid for Car: $0.83
+[2025-07-19 10:09:43] EMI Paid for Car: $0.83
+[2025-07-19 10:09:43] EMI Paid for Car: $0.83
+[2025-07-19 10:09:43] EMI Paid for Car: $0.83
+[2025-07-19 10:09:43] EMI Paid for Car: $0.83
+[2025-07-19 10:09:43] EMI Paid for Car: $0.83
+[2025-07-19 10:09:44] EMI Paid for Car: $0.83
+[2025-07-19 10:09:44] Car Loan Fully Paid
